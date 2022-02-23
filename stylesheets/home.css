@@ -7,8 +7,10 @@ img {
     object-fit: cover;
 }
 .main-container{
-    max-width: 1;
+    max-width: 50%;
+    padding: 2rem;
 }
+
 
 .main-container{
     margin: auto;
@@ -16,8 +18,33 @@ img {
 }
 .res-img-width-only{
     width: 100%;
+    max-height: 20%;
     object-fit: cover;
 }
 .img-container-1{
     overflow: hidden;
+}
+
+.pd-all-2{
+    padding: 2rem;
+}
+
+.heading-align-center{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+
+.container-2{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 4rem;
+}
+
+.cards-container{
+    column-gap: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
