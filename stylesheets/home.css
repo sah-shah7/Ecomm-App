@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+img {
+    object-fit: cover;
+}
+.main-container{
+    max-width: 1;
+}
+
+.main-container{
+    margin: auto;
+    max-width: 10rem;
+}
+.res-img-width-only{
+    width: 100%;
+    object-fit: cover;
+}
+.img-container-1{
+    overflow: hidden;
+}
