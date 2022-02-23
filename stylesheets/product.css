@@ -1,0 +1,11 @@
+.price-filter{
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar-side{
+    position:sticky;
+    overflow-y:auto;
+    width: 14rem;
+    top:0;
+}
