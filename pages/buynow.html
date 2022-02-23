@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../main.css">
     <link rel="stylesheet" href="../stylesheets/shared/shared.css">
     <link rel="stylesheet" href="../stylesheets/home.css">
-    <title>Getting-Started</title>
+    <link rel="stylesheet" href="../stylesheets/product.css">
+    <script src="https://kit.fontawesome.com/dd240e367a.js" crossorigin="anonymous"></script>
+    <title>Product Listings Pages</title>
 </head>
 
 <body>
@@ -17,20 +19,32 @@
         <div class="nav-bar-left">
             <ul class="nav-bar-list">
                 <li class="nav-bar-title-text">
-                    <a class="link-a link-a-font-color-black" href="../../index.html">Sway UI</a>
+                    <a class="link-a link-a-font-color-black" href="./index.html">PhoneMart</a>
+                </li>
+                <li class="nav-bar-list-items nav-bar-list-items-text">
+                    <a class="link-a link-a-font-color-black" href="./index.html">Home</a>
+                </li>
+                <li class="nav-bar-list-items nav-bar-list-items-text">
+                    <a class="link-a link-a-font-color-black" href="../../pages/getting-started.html">Buy Now</a>
                 </li>
             </ul>
         </div>
         <div class="nav-bar-right">
             <ul class="nav-bar-list">
                 <li class="nav-bar-list-items nav-bar-list-items-text">
-                    <a class="link-a link-a-font-color-black" href="../../index.html">Home</a>
+                    <a class="link-a link-a-font-color-black" href="../../index.html"> <button type="button"
+                            class="badge-typ-1"> <span class="fa-solid fa-heart f-s-lg"></span> <span
+                                class="badge-count typ-bg-red">9+</span> </button></a>
                 </li>
                 <li class="nav-bar-list-items nav-bar-list-items-text">
-                    <a class="link-a link-a-font-color-black" href="../../pages/getting-started.html">Docs</a>
+                    <a class="link-a link-a-font-color-black" href="../../pages/getting-started.html">Login</a>
                 </li>
                 <li class="nav-bar-list-items nav-bar-list-items-text">
-                    <a class="link-a link-a-font-color-black" href="https://github.com/sah-shah7/Sway-UI">Github</a>
+                    <a class="link-a link-a-font-color-black" href="https://github.com/sah-shah7/Sway-UI"><button
+                            class="badge-typ-1">
+                            <span class="fas fa-shopping-cart f-s-lg"></span>
+                            <span class="badge-count typ-bg-yw">9+</span>
+                        </button></a>
                 </li>
             </ul>
         </div>
@@ -48,18 +62,173 @@
                         From Highest to Lowest
                     </label>
                     <label>
-                        <input type="radio" name="sort-price" id="lowToHigh" class="small-text">
-                        Price Low to High
+                        <input type="radio">
+                        Price Lowest to Highest
                     </label>
+                </div>
+
+                <div class="rating-filter">
+                    <span>Filter By Rating</span>
+                    <label>
+                        <input type="radio">
+                        5 Stars
+                    </label>
+                    <label>
+                        <input type="radio">
+                       =>4 Stars
+                    </label>
+                    <label>
+                        <input type="radio">
+                        =>3 Stars
+                    </label>
+                    <label>
+                        <input type="radio">
+                        =>2stars
+                    </label>
+                    <label>
+                        <input type="radio">
+                        =>1 Starts
+                    </label>
+
+                </div>
+
+                <div class="category-filter">
+                    <span>Filter By Categories</span>
+                    <label>
+                        <input type="radio">
+                        Android OS
+                    </label>
+                    <label>
+                        <input type="radio">
+                       iOS
+                    </label>
+                    <label>
+                        <input type="radio">
+                        Windows OS
+                    </label>
+            
+
                 </div>
             </nav>
         <!--Sidebar ends here-->
         <div class="component-container">
             <div class="examples-description">
-                <h1 class="h1-size-1">Installation</h1>
-                <p class="p-description">
-                    To use Sway UI components in your project, add the following html code to the head section.
-                </p>
+                <div class="card-typ-vertical">
+                    <div class="card">
+                        <div class="card-typ-1">
+                            <div class="card-img-vertical-container">
+                                <div class="badge-bs">#1 Bestseller</div>
+                                <div class="text-overlay">Out of Stock</div>
+                                <img src="../src/assests/images/mobile-grid.jpg" alt="mobile stock" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-h-style f-s-h5">morbi enim-card title</h5>
+                                <p class="card-text-paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.Tincidunt ornare massa eget egestas.
+                                </p>
+                            </div>
+
+                            <div class="card-info">
+                                <span class="price-after">₹99</span>
+                                <span class="price-before text-subtitle-color">₹100</span>
+                                <span class="price-percent-difference">1% Off</span>
+                            </div>
+                            <div class="card-buttons">
+                                <span class="btn-add-to-card">
+                                    <button class="btn-1 is-primary">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add To Cart
+                                    </button>
+                                </span>
+                                <span class="btn-wishlist">
+                                    <button class="btn-1 bg-none">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-typ-vertical">
+                    <div class="card">
+                        <div class="card-typ-1">
+                            <div class="card-img-vertical-container">
+                                <div class="badge-bs">#1 Bestseller</div>
+                                <div class="text-overlay">Out of Stock</div>
+                                <img src="../src/assests/images/mobile-grid.jpg" alt="mobile stock" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-h-style f-s-h5">morbi enim-card title</h5>
+                                <p class="card-text-paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.Tincidunt ornare massa eget egestas.
+                                </p>
+                            </div>
+
+                            <div class="card-info">
+                                <span class="price-after">₹99</span>
+                                <span class="price-before text-subtitle-color">₹100</span>
+                                <span class="price-percent-difference">1% Off</span>
+                            </div>
+                            <div class="card-buttons">
+                                <span class="btn-add-to-card">
+                                    <button class="btn-1 is-primary">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add To Cart
+                                    </button>
+                                </span>
+                                <span class="btn-wishlist">
+                                    <button class="btn-1 bg-none">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-typ-vertical">
+                    <div class="card">
+                        <div class="card-typ-1">
+                            <div class="card-img-vertical-container">
+                                <div class="badge-bs">#1 Bestseller</div>
+                                <div class="text-overlay">Out of Stock</div>
+                                <img src="../src/assests/images/mobile-grid.jpg" alt="mobile stock" />
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-h-style f-s-h5">morbi enim-card title</h5>
+                                <p class="card-text-paragraph">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                                    do eiusmod tempor incididunt ut labore et dolore magna
+                                    aliqua.Tincidunt ornare massa eget egestas.
+                                </p>
+                            </div>
+
+                            <div class="card-info">
+                                <span class="price-after">₹99</span>
+                                <span class="price-before text-subtitle-color">₹100</span>
+                                <span class="price-percent-difference">1% Off</span>
+                            </div>
+                            <div class="card-buttons">
+                                <span class="btn-add-to-card">
+                                    <button class="btn-1 is-primary">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        Add To Cart
+                                    </button>
+                                </span>
+                                <span class="btn-wishlist">
+                                    <button class="btn-1 bg-none">
+                                        <i class="fa fa-heart-o"></i>
+                                    </button>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
             
